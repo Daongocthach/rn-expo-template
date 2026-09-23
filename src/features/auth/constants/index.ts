@@ -1,0 +1,9 @@
+export const USER_ROLE = {
+  ADMIN: 1,
+  OPERATOR: 2,
+  MAINTAINER: 3,
+  LEADER_OF_OPERATOR: 4,
+  LEADER_OF_MAINTAINERS: 5,
+} as const;
+
+export const DEFAULT_USERS_PAGE_SIZE = 20;

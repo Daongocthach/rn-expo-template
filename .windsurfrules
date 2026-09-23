@@ -1,0 +1,13 @@
+# Windsurf rules — Finepro Tools
+
+Follow `AGENTS.md` as the current repository guide and `CONVENTIONS.md` for detailed style. Inspect the target feature before copying patterns.
+
+- Expo SDK 55 / React Native 0.83.10 / TypeScript strict.
+- Yarn only; finish with `yarn validate` and relevant tests.
+- Preserve unrelated work; do not edit `.env`.
+- Use Unistyles tokens and shared UI from `@/common/components`.
+- Keep en, vi, zh-CN, and zh-TW synchronized.
+- Use React Query for API state, Zustand selectors for shared client state, and `useAuthStore` for auth.
+- Select the API client used by neighboring services; modules use different base URLs/auth.
+- No `any`, lint/type suppressions, hardcoded colors, or hook bypasses.
+- Never commit, push, deploy, publish OTA updates, or build/upload releases without an explicit request.

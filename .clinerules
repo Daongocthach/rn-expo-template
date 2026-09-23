@@ -1,0 +1,13 @@
+# Cline rules — Finepro Tools
+
+Read `AGENTS.md` first. It is the source of truth for the current product, routes, providers, API clients, commands, and safety rules. Use `CONVENTIONS.md` for detailed code style.
+
+- Expo 55, React Native 0.83.10, TypeScript strict, typed Expo Router.
+- Use Yarn only and run `yarn validate` before completion.
+- Preserve unrelated changes; never change `.env`.
+- Reuse shared components and Unistyles theme tokens.
+- Translate every visible string across en, vi, zh-CN, and zh-TW.
+- React Query for remote state; Zustand selectors for client state; auth only through `useAuthStore`.
+- Match the feature's existing Axios client.
+- No `any`, suppression directives, hardcoded colors, or `--no-verify`.
+- No commit, push, OTA, APK, or deployment action unless explicitly requested.

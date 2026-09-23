@@ -1,0 +1,128 @@
+{
+  "common": {
+    "ok": "確定",
+    "cancel": "取消",
+    "save": "儲存",
+    "loading": "載入中...",
+    "error": "錯誤",
+    "confirm": "確認",
+    "close": "關閉",
+    "clear": "清除",
+    "technician": "開發者",
+    "back": "返回",
+    "submit": "提交",
+    "scrollToTop": "回到頂部",
+    "selectTime": "選擇時間",
+    "selectDate": "選擇日期",
+    "selectDateTime": "選擇日期與時間",
+    "time": "時間",
+    "hours": "時",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+  "header": {
+    "brandName": "Expo Starter",
+    "back": "返回",
+    "menu": "選單"
+  },
+  "home": {
+    "welcome": "歡迎",
+    "subtitle": "整潔、標準化且可複用的 React Native Expo 啟動模板。",
+    "features": {
+      "expoRouter": "Expo Router",
+      "expoRouterDesc": "基於檔案的路由，支援類型安全路由、標籤導覽和受保護的身份驗證防護。",
+      "unistyles": "Unistyles 3",
+      "unistylesDesc": "現代無額外開銷的主題系統，支援動態亮暗模式和響應式度量。",
+      "state": "React Query & Zustand",
+      "stateDesc": "強大的伺服器狀態管理，結合 Zustand 實現快速客戶端狀態和 MMKV 持久化。",
+      "ui": "40 多個 UI 元件",
+      "uiDesc": "豐富且支援無障礙的共享元件庫，可直接用於新功能開發。",
+      "active": "已啟用",
+      "designSystem": "設計系統"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "登入",
+      "subtitle": "輸入帳號資訊以繼續",
+      "usernameLabel": "使用者名稱",
+      "usernamePlaceholder": "請輸入使用者名稱",
+      "passwordLabel": "密碼",
+      "passwordPlaceholder": "請輸入密碼",
+      "submit": "登入"
+    }
+  },
+  "tabs": {
+    "dashboard": "首頁",
+    "settings": "設定"
+  },
+  "drawer": {
+    "account": "我的帳戶",
+    "accountSubtitle": "個人資料與詳情",
+    "settings": "設定",
+    "settingsSubtitle": "主題與偏好",
+    "logout": "登出",
+    "logoutConfirmMessage": "確定要登出嗎？",
+    "loggingOut": "正在登出..."
+  },
+  "account": {
+    "fields": {
+      "fullName": "姓名",
+      "username": "使用者名稱",
+      "role": "角色",
+      "department": "部門",
+      "company": "公司",
+      "status": "狀態",
+      "statusActive": "正常",
+      "statusInactive": "停用"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "darkMode": "深色模式",
+    "version": "版本",
+    "sections": {
+      "utilities": "偏好設定",
+      "support": "關於"
+    },
+    "support": {
+      "versionSubtitle": "應用程式版本資訊"
+    },
+    "danger": {
+      "logout": "登出",
+      "logoutSubtitle": "在此裝置上結束目前工作階段"
+    }
+  },
+  "language": {
+    "selectTitle": "選擇語言",
+    "subtitle": "選擇您偏好的語言",
+    "label": "語言",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "简体中文",
+    "taiwanese": "繁體中文"
+  },
+  "versions": {
+    "title": "應用程式版本",
+    "otaVersionSuffix": "(建置版本 {{version}})",
+    "updatedAt": "更新於"
+  },
+  "network": {
+    "offline": "無網路連線",
+    "offlineMessage": "請檢查您的網路連線。",
+    "online": "網路已恢復",
+    "onlineMessage": "已重新連線至網際網路。"
+  },
+  "errors": {
+    "title": "錯誤",
+    "generic": "發生了未預期的錯誤",
+    "codeLabel": "錯誤代碼",
+    "logoutFailed": "登出失敗",
+    "logoutFailedMessage": "無法登出，請再試一次。"
+  },
+  "notFound": {
+    "title": "抱歉！",
+    "message": "此頁面不存在。",
+    "goHome": "返回首頁"
+  }
+}

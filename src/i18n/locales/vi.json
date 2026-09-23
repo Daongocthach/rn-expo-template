@@ -1,0 +1,128 @@
+{
+  "common": {
+    "ok": "Đồng ý",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "confirm": "Xác nhận",
+    "close": "Đóng",
+    "clear": "Xóa",
+    "technician": "Kỹ thuật viên",
+    "back": "Quay lại",
+    "submit": "Gửi",
+    "scrollToTop": "Cuộn lên đầu",
+    "selectTime": "Chọn giờ",
+    "selectDate": "Chọn ngày",
+    "selectDateTime": "Chọn ngày và giờ",
+    "time": "Thời gian",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây"
+  },
+  "header": {
+    "brandName": "Expo Starter",
+    "back": "Quay lại",
+    "menu": "Menu"
+  },
+  "home": {
+    "welcome": "Xin chào",
+    "subtitle": "Template React Native Expo chuẩn mực, sạch sẽ và sẵn sàng sử dụng.",
+    "features": {
+      "expoRouter": "Expo Router",
+      "expoRouterDesc": "Định tuyến theo tệp với typed routes, tab navigation và xác thực protected guards.",
+      "unistyles": "Unistyles 3",
+      "unistylesDesc": "Hệ thống theme hiện đại hiệu năng cao, hỗ trợ đổi sáng/tối linh hoạt và responsive metrics.",
+      "state": "React Query & Zustand",
+      "stateDesc": "Quản lý trạng thái máy chủ mạnh mẽ kết hợp Zustand và lưu trữ nhanh với MMKV.",
+      "ui": "Hơn 40 UI Components",
+      "uiDesc": "Bộ thành phần dùng chung phong phú, chuẩn accessibility, sẵn sàng phát triển tính năng mới.",
+      "active": "Hoạt động",
+      "designSystem": "Design System"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng Nhập",
+      "subtitle": "Nhập thông tin tài khoản để tiếp tục",
+      "usernameLabel": "Tên đăng nhập",
+      "usernamePlaceholder": "Nhập tên đăng nhập",
+      "passwordLabel": "Mật khẩu",
+      "passwordPlaceholder": "Nhập mật khẩu",
+      "submit": "Đăng Nhập"
+    }
+  },
+  "tabs": {
+    "dashboard": "Trang chủ",
+    "settings": "Cài đặt"
+  },
+  "drawer": {
+    "account": "Tài khoản",
+    "accountSubtitle": "Hồ sơ & chi tiết",
+    "settings": "Cài đặt",
+    "settingsSubtitle": "Giao diện & tùy chọn",
+    "logout": "Đăng xuất",
+    "logoutConfirmMessage": "Bạn có chắc chắn muốn đăng xuất không?",
+    "loggingOut": "Đang đăng xuất..."
+  },
+  "account": {
+    "fields": {
+      "fullName": "Họ và tên",
+      "username": "Tên đăng nhập",
+      "role": "Vai trò",
+      "department": "Bộ phận",
+      "company": "Công ty",
+      "status": "Trạng thái",
+      "statusActive": "Hoạt động",
+      "statusInactive": "Vô hiệu hóa"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "darkMode": "Chế độ tối",
+    "version": "Phiên bản",
+    "sections": {
+      "utilities": "Tiện ích & Tùy chọn",
+      "support": "Thông tin"
+    },
+    "support": {
+      "versionSubtitle": "Thông tin phiên bản ứng dụng"
+    },
+    "danger": {
+      "logout": "Đăng xuất",
+      "logoutSubtitle": "Kết thúc phiên làm việc trên thiết bị này"
+    }
+  },
+  "language": {
+    "selectTitle": "Chọn ngôn ngữ",
+    "subtitle": "Chọn ngôn ngữ hiển thị mong muốn",
+    "label": "Ngôn ngữ",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "简体中文",
+    "taiwanese": "繁體中文"
+  },
+  "versions": {
+    "title": "Phiên bản ứng dụng",
+    "otaVersionSuffix": "(Bản dựng {{version}})",
+    "updatedAt": "Cập nhật lúc"
+  },
+  "network": {
+    "offline": "Mất kết nối mạng",
+    "offlineMessage": "Vui lòng kiểm tra lại kết nối internet.",
+    "online": "Đã có mạng trở lại",
+    "onlineMessage": "Kết nối internet đã được khôi phục."
+  },
+  "errors": {
+    "title": "Lỗi",
+    "generic": "Đã xảy ra lỗi không mong muốn",
+    "codeLabel": "Mã lỗi",
+    "logoutFailed": "Đăng xuất thất bại",
+    "logoutFailedMessage": "Không thể đăng xuất. Vui lòng thử lại."
+  },
+  "notFound": {
+    "title": "Rất tiếc!",
+    "message": "Trang này không tồn tại.",
+    "goHome": "Quay về trang chủ"
+  }
+}

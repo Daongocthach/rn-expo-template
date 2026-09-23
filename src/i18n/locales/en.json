@@ -1,0 +1,128 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Error",
+    "confirm": "Confirm",
+    "close": "Close",
+    "clear": "Clear",
+    "technician": "Developer",
+    "back": "Back",
+    "submit": "Submit",
+    "scrollToTop": "Scroll to top",
+    "selectTime": "Select time",
+    "selectDate": "Select date",
+    "selectDateTime": "Select date and time",
+    "time": "Time",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "header": {
+    "brandName": "Expo Starter",
+    "back": "Back",
+    "menu": "Menu"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "subtitle": "Your clean and production-ready React Native Expo starter template.",
+    "features": {
+      "expoRouter": "Expo Router",
+      "expoRouterDesc": "File-based routing with typed routes, tab navigation, and protected auth guards.",
+      "unistyles": "Unistyles 3",
+      "unistylesDesc": "Modern zero-overhead theming system with dynamic light/dark mode and responsive metrics.",
+      "state": "React Query & Zustand",
+      "stateDesc": "Robust server-state management paired with Zustand for fast client state and MMKV storage.",
+      "ui": "40+ UI Components",
+      "uiDesc": "Accessible, customizable shared components ready for immediate feature development.",
+      "active": "Active",
+      "designSystem": "Design System"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Enter your credentials to continue",
+      "usernameLabel": "Username",
+      "usernamePlaceholder": "Enter username",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter password",
+      "submit": "Sign In"
+    }
+  },
+  "tabs": {
+    "dashboard": "Dashboard",
+    "settings": "Settings"
+  },
+  "drawer": {
+    "account": "My Account",
+    "accountSubtitle": "Profile & Details",
+    "settings": "Settings",
+    "settingsSubtitle": "Theme & Preferences",
+    "logout": "Log Out",
+    "logoutConfirmMessage": "Are you sure you want to log out?",
+    "loggingOut": "Logging out..."
+  },
+  "account": {
+    "fields": {
+      "fullName": "Full Name",
+      "username": "Username",
+      "role": "Role",
+      "department": "Department",
+      "company": "Company",
+      "status": "Status",
+      "statusActive": "Active",
+      "statusInactive": "Inactive"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "darkMode": "Dark Mode",
+    "version": "Version",
+    "sections": {
+      "utilities": "Preferences",
+      "support": "About"
+    },
+    "support": {
+      "versionSubtitle": "Application version info"
+    },
+    "danger": {
+      "logout": "Log Out",
+      "logoutSubtitle": "Sign out of your account"
+    }
+  },
+  "language": {
+    "selectTitle": "Select Language",
+    "subtitle": "Choose your preferred language",
+    "label": "Language",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "简体中文",
+    "taiwanese": "繁體中文"
+  },
+  "versions": {
+    "title": "App Version",
+    "otaVersionSuffix": "(Build {{version}})",
+    "updatedAt": "Updated at"
+  },
+  "network": {
+    "offline": "No Internet Connection",
+    "offlineMessage": "Please check your network connection.",
+    "online": "Back Online",
+    "onlineMessage": "Internet connection restored."
+  },
+  "errors": {
+    "title": "Error",
+    "generic": "An unexpected error occurred",
+    "codeLabel": "Error Code",
+    "logoutFailed": "Logout Failed",
+    "logoutFailedMessage": "Unable to log out. Please try again."
+  },
+  "notFound": {
+    "title": "Oops!",
+    "message": "This screen does not exist.",
+    "goHome": "Go to home screen"
+  }
+}

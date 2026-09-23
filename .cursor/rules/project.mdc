@@ -1,0 +1,18 @@
+---
+description: Current Finepro Tools repository rules
+alwaysApply: true
+---
+
+# Project rules
+
+Read `AGENTS.md` before editing. It is authoritative for the current route tree, features, providers, API clients, commands, and agent safety. Use `CONVENTIONS.md` for detailed style.
+
+- Expo 55 / React Native 0.83.10 / TypeScript strict; Yarn only.
+- Preserve unrelated changes and never edit `.env`.
+- Reuse shared components and Unistyles theme tokens.
+- Keep en, vi, zh-CN, and zh-TW synchronized.
+- React Query owns remote state; Zustand selectors own shared client state; auth stays in `useAuthStore`.
+- Match neighboring services when choosing among the repository's Axios clients.
+- No `any`, suppression directives, hardcoded colors, or `--no-verify`.
+- Run `yarn validate` before handoff and relevant tests for behavior changes.
+- Never commit, push, publish OTA updates, or deploy/build releases unless explicitly requested.

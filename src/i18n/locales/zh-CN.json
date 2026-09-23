@@ -1,0 +1,128 @@
+{
+  "common": {
+    "ok": "确定",
+    "cancel": "取消",
+    "save": "保存",
+    "loading": "加载中...",
+    "error": "错误",
+    "confirm": "确认",
+    "close": "关闭",
+    "clear": "清除",
+    "technician": "开发者",
+    "back": "返回",
+    "submit": "提交",
+    "scrollToTop": "回到顶部",
+    "selectTime": "选择时间",
+    "selectDate": "选择日期",
+    "selectDateTime": "选择日期与时间",
+    "time": "时间",
+    "hours": "时",
+    "minutes": "分",
+    "seconds": "秒"
+  },
+  "header": {
+    "brandName": "Expo Starter",
+    "back": "返回",
+    "menu": "菜单"
+  },
+  "home": {
+    "welcome": "欢迎",
+    "subtitle": "整洁、标准化且可复用的 React Native Expo 启动模板。",
+    "features": {
+      "expoRouter": "Expo Router",
+      "expoRouterDesc": "基于文件的路由，支持类型安全路由、标签导航和受保护的身份验证防护。",
+      "unistyles": "Unistyles 3",
+      "unistylesDesc": "现代无额外开销的主题系统，支持动态亮暗模式和响应式度量。",
+      "state": "React Query & Zustand",
+      "stateDesc": "强大的服务器状态管理，结合 Zustand 实现快速客户端状态和 MMKV 持久化。",
+      "ui": "40 多个 UI 组件",
+      "uiDesc": "丰富且支持无障碍的共享组件库，可直接用于新功能开发。",
+      "active": "已启用",
+      "designSystem": "设计系统"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "登录",
+      "subtitle": "输入账号信息以继续",
+      "usernameLabel": "用户名",
+      "usernamePlaceholder": "请输入用户名",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "请输入密码",
+      "submit": "登录"
+    }
+  },
+  "tabs": {
+    "dashboard": "首页",
+    "settings": "设置"
+  },
+  "drawer": {
+    "account": "我的账户",
+    "accountSubtitle": "个人资料与详情",
+    "settings": "设置",
+    "settingsSubtitle": "主题与偏好",
+    "logout": "退出登录",
+    "logoutConfirmMessage": "确定要退出登录吗？",
+    "loggingOut": "正在退出..."
+  },
+  "account": {
+    "fields": {
+      "fullName": "姓名",
+      "username": "用户名",
+      "role": "角色",
+      "department": "部门",
+      "company": "公司",
+      "status": "状态",
+      "statusActive": "正常",
+      "statusInactive": "停用"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "darkMode": "深色模式",
+    "version": "版本",
+    "sections": {
+      "utilities": "偏好设置",
+      "support": "关于"
+    },
+    "support": {
+      "versionSubtitle": "应用版本信息"
+    },
+    "danger": {
+      "logout": "退出登录",
+      "logoutSubtitle": "在此设备上结束当前会话"
+    }
+  },
+  "language": {
+    "selectTitle": "选择语言",
+    "subtitle": "选择您偏好的语言",
+    "label": "语言",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "简体中文",
+    "taiwanese": "繁體中文"
+  },
+  "versions": {
+    "title": "应用版本",
+    "otaVersionSuffix": "(构建版本 {{version}})",
+    "updatedAt": "更新于"
+  },
+  "network": {
+    "offline": "无网络连接",
+    "offlineMessage": "请检查您的网络连接。",
+    "online": "网络已恢复",
+    "onlineMessage": "已重新连接至互联网。"
+  },
+  "errors": {
+    "title": "错误",
+    "generic": "发生了意外错误",
+    "codeLabel": "错误代码",
+    "logoutFailed": "退出登录失败",
+    "logoutFailedMessage": "无法退出登录，请重试。"
+  },
+  "notFound": {
+    "title": "抱歉！",
+    "message": "此页面不存在。",
+    "goHome": "返回首页"
+  }
+}

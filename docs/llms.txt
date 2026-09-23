@@ -1,0 +1,45 @@
+# finepro-tools
+
+Current compact context for coding assistants.
+
+Product:
+
+- Internal manufacturing-operations mobile app.
+- Dashboard launches checklists, CNC/dimension, foundry, molds, repair machines, devices/gauges, factory map, coating warehouse, dewax, gas, insulation wrapping, pallets, tools, and bonus modules.
+- Root tabs are dashboard and settings. Old batches/devices/alerts tab documentation is obsolete.
+
+Stack:
+
+- Expo SDK 55; React Native 0.83.10; React 19.2; TypeScript 5.9 strict.
+- Expo Router typed/protected routes.
+- react-native-unistyles 3, TanStack React Query 5, Zustand 5.
+- Axios with main and module-specific clients.
+- react-i18next locales: en, vi, zh-CN, zh-TW.
+- MMKV 4, React Hook Form, zod/v4.
+- Vision Camera, NFC, BLE, Expo Updates.
+- Jest 29, ESLint 9, Prettier 3; Yarn 1 only.
+
+Key locations:
+
+- app/: routes and layouts.
+- src/features/: domain modules.
+- src/common/components/index.ts: public shared UI.
+- src/providers/: auth/query/alert/sheet/camera/NFC/drawer/update providers.
+- src/services/api/: typed Axios clients and helpers.
+- src/config/env.ts: environment mapping.
+- src/theme/: tokens, metrics, Unistyles.
+- src/utils/app-version.ts: app/runtime/OTA version constants.
+
+Rules:
+
+- Read AGENTS.md first; inspect nearby feature code.
+- Preserve unrelated changes; never edit .env.
+- Use shared components and Unistyles tokens; no hardcoded colors.
+- Translate visible strings in all four locale files.
+- React Query for remote state; Zustand selectors for shared client state; useAuthStore for auth.
+- Match the feature's existing Axios client and specify response generics.
+- No any, suppression directives, or --no-verify.
+- Run relevant tests and yarn validate before handoff.
+- Commit/push/OTA/APK/deploy only when explicitly requested.
+
+The current source has no Supabase integration.
