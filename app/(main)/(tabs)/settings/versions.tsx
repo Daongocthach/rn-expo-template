@@ -31,8 +31,8 @@ export default function VersionsScreen() {
           <DetailRow label="Runtime" value={RUNTIME_VERSION} />
           <DetailRow label="Environment" value={env.appEnv} />
           <DetailRow label="Platform" value={`${Platform.OS} ${Platform.Version}`} />
-          <DetailRow label="Expo SDK" value="55.0.0" />
-          <DetailRow label="React Native" value="0.83.10" />
+          <DetailRow label="Expo SDK" value="57.0.0" />
+          <DetailRow label="React Native" value="0.86.3" />
         </Card>
       </View>
     </ScreenContainer>

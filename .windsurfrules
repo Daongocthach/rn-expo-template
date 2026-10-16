@@ -2,7 +2,7 @@
 
 Follow `AGENTS.md` as the current repository guide and `CONVENTIONS.md` for detailed style. Inspect the target feature before copying patterns.
 
-- Expo SDK 55 / React Native 0.83.10 / TypeScript strict.
+- Expo SDK 57 / React Native 0.86.3 / TypeScript strict.
 - Yarn only; finish with `yarn validate` and relevant tests.
 - Preserve unrelated work; do not edit `.env`.
 - Use Unistyles tokens and shared UI from `@/common/components`.

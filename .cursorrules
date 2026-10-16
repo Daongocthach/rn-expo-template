@@ -2,7 +2,7 @@
 
 `AGENTS.md` is the authoritative AI-agent guide. Read it before editing; use `CONVENTIONS.md` and nearby feature code for implementation details.
 
-- Expo 55, React Native 0.83.10, TypeScript strict, Expo Router typed routes.
+- Expo 57, React Native 0.86.3, TypeScript strict, Expo Router typed routes.
 - Use Yarn only; run `yarn validate` before handoff.
 - Preserve unrelated changes and never modify `.env`.
 - Use `react-native-unistyles` and theme tokens; reuse `@/common/components`.

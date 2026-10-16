@@ -4,7 +4,7 @@ Read and follow `AGENTS.md` before making changes. Use `CONVENTIONS.md` for deta
 
 Repository snapshot:
 
-- Finepro Tools is an Expo SDK 55 / React Native 0.83.10 manufacturing-operations app.
+- Finepro Tools is an Expo SDK 57 / React Native 0.86.3 manufacturing-operations app.
 - Routes cover dashboard/settings plus checklists, CNC, foundry, molds, devices/gauges, repair machines, factory map, warehouses and other shop-floor modules.
 - Use Yarn only.
 - Use Unistyles theme tokens, shared components, React Query, Zustand selectors, the feature-appropriate Axios client, and all four locales.

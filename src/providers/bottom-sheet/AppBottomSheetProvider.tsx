@@ -51,6 +51,10 @@ interface FixedBackdropProps extends Pick<BottomSheetBackdropProps, 'animatedInd
 
 const BottomSheetContext = createContext<BottomSheetContextType | undefined>(undefined);
 
+type AnimatedScrollViewComponent = NonNullable<
+  React.ComponentProps<typeof KeyboardAwareScrollView>['ScrollViewComponent']
+>;
+
 const KeyboardAwareBottomSheetScrollView = forwardRef<
   BottomSheetScrollViewMethods,
   ScrollViewProps
@@ -60,7 +64,7 @@ const KeyboardAwareBottomSheetScrollView = forwardRef<
       {children ?? null}
     </BottomSheetScrollView>
   );
-});
+}) as unknown as AnimatedScrollViewComponent;
 
 KeyboardAwareBottomSheetScrollView.displayName = 'KeyboardAwareBottomSheetScrollView';
 

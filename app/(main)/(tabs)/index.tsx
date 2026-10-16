@@ -31,7 +31,7 @@ export default function DashboardScreen() {
         <View style={styles.headerSection}>
           <Badge variant="subtle" size="sm">
             <Text variant="caption" weight="medium" color="accent">
-              {'Expo SDK 55 + React Native 0.83'}
+              {'Expo SDK 57 + React Native 0.86'}
             </Text>
           </Badge>
           <Text variant="h1" weight="bold">

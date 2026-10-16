@@ -7,7 +7,7 @@ alwaysApply: true
 
 Read `AGENTS.md` before editing. It is authoritative for the current route tree, features, providers, API clients, commands, and agent safety. Use `CONVENTIONS.md` for detailed style.
 
-- Expo 55 / React Native 0.83.10 / TypeScript strict; Yarn only.
+- Expo 57 / React Native 0.86.3 / TypeScript strict; Yarn only.
 - Preserve unrelated changes and never edit `.env`.
 - Reuse shared components and Unistyles theme tokens.
 - Keep en, vi, zh-CN, and zh-TW synchronized.

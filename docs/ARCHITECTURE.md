@@ -8,7 +8,7 @@ Finepro Tools is a production Expo/React Native app for internal manufacturing o
 
 | Layer           | Technology                                         |
 | --------------- | -------------------------------------------------- |
-| Framework       | Expo SDK 55, React Native 0.83.10, React 19.2      |
+| Framework       | Expo SDK 57, React Native 0.86.3, React 19.2       |
 | Routing         | Expo Router with typed routes and protected stacks |
 | Language        | TypeScript 5.9 strict                              |
 | Styling         | React Native Unistyles 3                           |

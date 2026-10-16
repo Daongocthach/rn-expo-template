@@ -75,27 +75,33 @@ function run() {
     warn('.env file not found (optional — copy .env.example)');
   }
 
-  // 3. app.json not using template defaults
-  try {
-    const appJson = readJSON('app.json');
-    const expo = appJson.expo || {};
+  // 3. app configuration check
+  if (fileExists('app.json')) {
+    try {
+      const appJson = readJSON('app.json');
+      const expo = appJson.expo || {};
 
-    if (expo.name === 'My App') {
-      warn('app.json still using default name "My App"');
-    } else {
-      pass(`app.json name: "${expo.name}"`);
-    }
+      if (expo.name === 'My App') {
+        warn('app.json still using default name "My App"');
+      } else {
+        pass(`app.json name: "${expo.name}"`);
+      }
 
-    const bundleId = expo.ios?.bundleIdentifier;
-    if (bundleId === 'com.myapp.app') {
-      warn('app.json using default bundleIdentifier "com.myapp.app"');
-    }
+      const bundleId = expo.ios?.bundleIdentifier;
+      if (bundleId === 'com.myapp.app') {
+        warn('app.json using default bundleIdentifier "com.myapp.app"');
+      }
 
-    if (expo.slug === 'my-app') {
-      warn('app.json using default slug "my-app"');
+      if (expo.slug === 'my-app') {
+        warn('app.json using default slug "my-app"');
+      }
+    } catch {
+      fail('app.json could not be parsed');
     }
-  } catch {
-    fail('app.json could not be parsed');
+  } else if (fileExists('app.config.ts')) {
+    pass('app.config.ts found');
+  } else {
+    fail('app config file missing');
   }
 
   // 4. package.json name

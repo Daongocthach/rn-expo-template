@@ -1,10 +1,10 @@
 # React Native Expo Starter Template
 
-Production-ready, clean, and scalable React Native starter template built with Expo SDK 55 and Expo Router.
+Production-ready, clean, and scalable React Native starter template built with Expo SDK 57 and Expo Router.
 
 ## Tech Stack
 
-- **Framework**: Expo SDK 55, React Native 0.83.10, React 19.2
+- **Framework**: Expo SDK 57, React Native 0.86.3, React 19.2
 - **Routing**: Expo Router (typed routes, protected stacks, tab navigation)
 - **Styling**: `react-native-unistyles` 3.x (dynamic light/dark mode, responsive metrics)
 - **Server State**: `@tanstack/react-query` 5 with MMKV persistence
@@ -49,17 +49,21 @@ src/
 ## Getting Started
 
 ### 1. Install dependencies
+
 ```bash
 yarn install
 ```
 
 ### 2. Configure environment
+
 Copy `.env.example` to `.env`:
+
 ```bash
 cp .env.example .env
 ```
 
 ### 3. Run the application
+
 ```bash
 yarn start
 # or run on devices:
@@ -69,14 +73,14 @@ yarn ios
 
 ## Available Scripts
 
-| Script | Description |
-| --- | --- |
-| `yarn start` | Start the Expo development server |
-| `yarn android` | Run on Android emulator or connected device |
-| `yarn ios` | Run on iOS simulator or connected device |
-| `yarn type-check` | Run TypeScript compiler type checking |
-| `yarn lint` | Run ESLint flat config |
-| `yarn format` | Format files with Prettier |
-| `yarn validate` | Run type-check, lint, format check, and i18n validation |
-| `yarn test` | Run Jest unit tests |
-| `yarn i18n:check` | Verify key parity across all locale files |
+| Script            | Description                                             |
+| ----------------- | ------------------------------------------------------- |
+| `yarn start`      | Start the Expo development server                       |
+| `yarn android`    | Run on Android emulator or connected device             |
+| `yarn ios`        | Run on iOS simulator or connected device                |
+| `yarn type-check` | Run TypeScript compiler type checking                   |
+| `yarn lint`       | Run ESLint flat config                                  |
+| `yarn format`     | Format files with Prettier                              |
+| `yarn validate`   | Run type-check, lint, format check, and i18n validation |
+| `yarn test`       | Run Jest unit tests                                     |
+| `yarn i18n:check` | Verify key parity across all locale files               |

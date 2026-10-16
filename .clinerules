@@ -2,7 +2,7 @@
 
 Read `AGENTS.md` first. It is the source of truth for the current product, routes, providers, API clients, commands, and safety rules. Use `CONVENTIONS.md` for detailed code style.
 
-- Expo 55, React Native 0.83.10, TypeScript strict, typed Expo Router.
+- Expo 57, React Native 0.86.3, TypeScript strict, typed Expo Router.
 - Use Yarn only and run `yarn validate` before completion.
 - Preserve unrelated changes; never change `.env`.
 - Reuse shared components and Unistyles theme tokens.

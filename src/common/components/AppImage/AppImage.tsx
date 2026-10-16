@@ -91,7 +91,7 @@ export function AppImage({
       >
         <ExpoImage
           source={source}
-          style={[RNStyleSheet.absoluteFillObject, styles.zoomTriggerImage]}
+          style={[RNStyleSheet.absoluteFill, styles.zoomTriggerImage]}
           contentFit={resolvedContentFit}
           accessibilityRole="image"
           accessibilityLabel={accessibilityLabel}

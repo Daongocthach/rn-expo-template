@@ -6,7 +6,7 @@ Instructions for AI coding agents working in this repository. This file describe
 
 Finepro Tools is an internal manufacturing-operations mobile app. The dashboard launches modules for equipment checklists, CNC and dimensional inspection, foundry, molds, repairs, factory maps, coating warehouse, dewax, gas, insulation wrapping, pallets, tools, and employee bonuses.
 
-- Expo SDK 55, React Native 0.83.10, React 19.2
+- Expo SDK 57, React Native 0.86.3, React 19.2
 - Expo Router with typed routes and protected stacks
 - TypeScript 5.9 strict; React Native Unistyles 3
 - TanStack React Query 5 for remote state; Zustand 5 for client state

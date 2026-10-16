@@ -10,7 +10,7 @@ Product:
 
 Stack:
 
-- Expo SDK 55; React Native 0.83.10; React 19.2; TypeScript 5.9 strict.
+- Expo SDK 57; React Native 0.86.3; React 19.2; TypeScript 5.9 strict.
 - Expo Router typed/protected routes.
 - react-native-unistyles 3, TanStack React Query 5, Zustand 5.
 - Axios with main and module-specific clients.
